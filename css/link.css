@@ -1,10 +1,1 @@
-.link { text-decoration: none; -webkit-transition: all 0.3s; transition: all 0.3s; }
-
-.link:link { color: #136699; }
-
-.link:visited { color: #082a3e; }
-
-.link:hover { color: #2d9fe5; }
-.link:hover.textDecorationUnderline { text-decoration: underline; }
-
-.link:active { color: #994613; }
+.link{text-decoration:none;transition:color 0.2s}.link:link{color:#0074D9}.link:visited{color:#ddd}.link:hover{color:#7FDBFF}.link:active{color:#FF4136}

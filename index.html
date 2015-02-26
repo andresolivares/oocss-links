@@ -8,17 +8,28 @@
 	<title>Link</title>
 	<link rel="stylesheet" href="css/link.css">
 	<style>
-		html {
-			font-family: sans-serif;
-		}
+		* {box-sizing: border-box;}
+		html {color: #444;font-family: sans-serif;}
+		body {height: 100%;margin: 0;}
+		.container {max-width: 40.625em;margin: 0 auto;padding: 0 1em;}
+		.title {padding: 2em 0;}
+		.button-download {border: 1px solid #444;color: #444;cursor: pointer;display: inline-block;font-size: 1.2em;text-decoration: none;margin-top: 2em;padding: .5em;}
 	</style>
 </head>
 <body>
-	
-	<h1><a href="#/">This is a normal link</a></h1>
-	<h1><a class="link" href="#/">This is a link with <code>.link</code> class</a></h1>
-	<h1><a class="link" href="http://google.com">This is a visited link</a></h1>
-	<p>Check de SASS file for all the information. </p>
+	<main class="container">
+		<h1 class="title">OOCSS Link</h1>
+
+		<h2>
+			<a href="">This is a normal link</a>
+		</h2>
+
+		<h2>
+			<a href="http://fake-url.com" class="link">This is a link with <code>.link</code> class</a>
+		</h2>
+
+		<a href="https://github.com/andresolivares/oocss-links/archive/master.zip" class="button-download">Download</a>
+	</main>
 
 </body>
 </html>

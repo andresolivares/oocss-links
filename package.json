@@ -1,0 +1,28 @@
+{
+  "name": "OOCSSLinks",
+  "version": "0.0.2",
+  "description": "A small module for OOCSS links",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andresolivares/oocss-links.git"
+  },
+  "keywords": [
+    "css",
+    "oocss"
+  ],
+  "author": "Andres Olivares",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andresolivares/oocss-links/issues"
+  },
+  "homepage": "https://github.com/andresolivares/oocss-links",
+  "devDependencies": {
+    "browser-sync": "^2.2.1",
+    "gulp": "^3.8.11",
+    "gulp-ruby-sass": "^1.0.0-alpha.3"
+  }
+}
